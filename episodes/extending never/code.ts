@@ -207,33 +207,27 @@ type NeverGenericEquivalences = [
   /**
    * `never` is the empty union of ZERO elements
    * 
-   * NeverGeneric<(|)>,
+   *    NeverGeneric<(|)>,
    */
 
-  /**
-   * This distribution over the empty union
-   * never happens (there's nothing to distribute over).
+  /** This distribution over the empty union never happens (there's nothing to distribute over).
    * 
-   * | NeverGeneric<(|)>
-   * | NeverGeneric<(|)>,
+   *    (| NeverGeneric<(|)>), 
    */
 
-  /**
-   * This conditional is never evaluated, and
-   * the `true`/`false` branches are both unreachable.
+  /** This conditional is never evaluated, and the `true`/`false` branches are both unreachable.
    * 
-   * ((|) extends never ? true : false),
+   *    (| ((|) extends never ? true : false)),
    */
 
-  /**
-   * NeverGeneric<never> resolves to an empty union
+  /** NeverGeneric<never> resolves to an empty union.
    * 
-   * (|),
+   *    (|),
    */
 
+  /** ...which is `never` by definition. */
   never,
-]
-
+]>
 
 
 
