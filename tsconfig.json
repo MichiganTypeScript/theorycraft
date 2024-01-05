@@ -1,5 +1,9 @@
 {
 	"compilerOptions": {
-		"target": "ES2022"
+		"target": "ES2022",
+		"jsx": "preserve",
+		"strict": true,
+		"moduleResolution": "NodeNext",
+		"module": "NodeNext"
 	}
 }

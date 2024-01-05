@@ -1,0 +1,15 @@
+{
+    "editor.minimap.enabled": false,
+    "zenMode.centerLayout": false,
+    "zenMode.showTabs": "none",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideActivityBar": true,
+    "zenMode.hideStatusBar": true,
+    "zenMode.silentNotifications": true,
+    "window.titleBarStyle": "native", // make sure this is in the user settings
+    "editor.padding.top": 25,
+    "scm.diffDecorations": "none",
+    "editor.bracketPairColorization.enabled": false,
+    "window.zoomLevel": 1,
+    "breadcrumbs.enabled": false
+}
