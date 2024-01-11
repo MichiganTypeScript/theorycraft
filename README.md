@@ -8,5 +8,5 @@ This repo holds examples for [Michigan TypeScript TheoryCraft](https://www.youtu
 
 ## Episodes
 
-- [that one weird trick to access array values: `T[number]`](./episodes/t-number)
-- [`assertUnreachable` techniques with Ryan from the TypeScript team](./episodes/assert-unreachable)
+- [that one weird trick to access array values: `T[number]`](./episodes/t-number/code.tsx)
+- [`assertUnreachable` techniques with Ryan from the TypeScript team](./episodes/assert-unreachable/code.tsx)
