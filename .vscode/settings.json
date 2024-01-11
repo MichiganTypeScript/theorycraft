@@ -10,6 +10,7 @@
     "editor.padding.top": 25,
     "scm.diffDecorations": "none",
     "editor.bracketPairColorization.enabled": false,
-    "window.zoomLevel": 1,
-    "breadcrumbs.enabled": false
+    "window.zoomLevel": 2,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "all",
 }
